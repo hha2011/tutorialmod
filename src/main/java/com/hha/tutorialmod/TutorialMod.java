@@ -1,5 +1,7 @@
 package com.hha.tutorialmod;
 
+import com.hha.tutorialmod.block.ModBlocks;
+import com.hha.tutorialmod.item.ModItemGroups;
 import com.hha.tutorialmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -13,6 +15,9 @@ public class TutorialMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+        ModItemGroups.registerItemGroups();
+
         ModItems.registerModItems();
+        ModBlocks.registerModBlocks();
 	}
 }
