@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "ingredient": {
+    "item": "tutorialmod:raw_pink_garnet"
+  },
+  "result": {
+    "id": "tutorialmod:pink_garnet"
+  },
+  "experience": 0.2,
+  "cookingtime": 200
+}
